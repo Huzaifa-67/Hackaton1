@@ -1,0 +1,748 @@
+/* *{
+margin: 0;
+padding: 0;
+}
+.nav-item{
+    margin-left: 100px;
+}
+.nnav-item{
+    margin-left: 400px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 100px;
+  }
+  
+  .nnav-item {
+    margin-left: 400px;
+  }
+  
+  /* General styling for the navbar */
+  .navbar {
+    height: 60px;
+    width: 100%; /* Ensures full width for small screens by default */
+    margin: 0 auto; /* Centers the navbar on larger screens */
+  
+
+   
+  }
+  
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) {
+    .nav-item {
+      margin-left: 20px;
+    }
+    .nnav-item {
+      margin-left: 20px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .nav-item {
+      margin-left: 10px;
+    }
+    .nnav-item {
+      margin-left: 10px;
+    }
+    .navbar {
+      padding: 0 20px; /* Slightly more padding for tablets */
+    }
+
+    
+  }
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) {
+    .nav-item {
+      margin-left: 80px;
+    }
+    .nnav-item {
+      margin-left: 80px;
+      
+    }
+  }
+  
+  /* X-Large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+    .nav-item {
+      margin-left: 50px;
+    }
+    .nnav-item {
+      margin-left: 200px;
+    }
+  }
+  
+  /* XX-Large devices (larger desktops, 1400px and up) */
+  @media (min-width: 1400px) {
+    .nav-item {
+      margin-left: 80px;
+    }
+    .nnav-item {
+      margin-left: 350px;
+    }
+  }
+
+/* navbar finish */
+
+  .subheading {
+  height: 180px;
+  margin-top: 100px;
+  margin-left: 87px;
+  cursor: text;
+}
+
+.subheading1 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 87px;
+}
+
+.subclass {
+  margin-top: -2px;
+  margin-left: 90px;
+  background-color: black;
+  color: white;
+  width: 180px;
+  padding: 3px;
+}
+
+.rightsub {
+  margin-left: 800px;
+  margin-top: -350px;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .subheading {
+    margin-left: 50px;
+    height: 200px;
+  }
+  .subheading1 {
+    margin-left: 50px;
+    font-size: 25px; /* Slightly smaller font size */
+  }
+  .subclass {
+    margin-left: 55px;
+    width: 200px; /* Reduce width */
+  }
+  .rightsub {
+    
+    height: 400px;
+    margin-left: 400px;
+    margin-top: -200px; /* Adjust for smaller screens */
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .subheading {
+    margin-left: 60px;
+  }
+  .subheading1 {
+    margin-left: 60px;
+    font-size: 19px;
+  }
+  .subclass {
+    margin-left: 65px;
+    width: 180px;
+  }
+  .rightsub {
+    margin-left: 600px;
+    margin-top: -250px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .subheading {
+    margin-left: 70px;
+  }
+  .subheading1 {
+    margin-left: 70px;
+    font-size: 20px;
+  }
+  .subclass {
+    margin-left: 75px;
+    width: 200px;
+  }
+  .rightsub {
+    height: 380px;
+    margin-left: 700px;
+    margin-top: -360px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .subheading {
+    margin-left: 80px;
+  }
+  .subheading1 {
+    margin-left: 80px;
+    font-size: 21px;
+  }
+  .subclass {
+    margin-left: 85px;
+    width: 180px;
+  }
+  .rightsub {
+    margin-left: 750px;
+    margin-top: -330px;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .subheading {
+    margin-left: 87px;
+  }
+  .subheading1 {
+    margin-left: 87px;
+    font-size: 22px;
+  }
+  .subclass {
+    margin-left: 90px;
+    width: 180px;
+    margin-bottom: 400px;
+    margin-top: -200px;
+  }
+  .rightsub {
+    height: 600px;
+    margin-left: 1050px;
+    margin-top: -1150px;
+  }
+}
+/*  */
+
+/* .image-container img {
+    display: flex;
+    margin-top: -300px;
+    
+    width: 100%;
+    height: auto;
+    border-radius: 10px; } */
+
+    .image-container img {
+        display: flex;
+        margin-top: -300px; /* Default for larger screens */
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Optional for rounded corners */
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) {
+        .image-container img {
+            margin-top: -10px; /* Adjust margin for smaller screens */
+            margin-top: 15px;
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) {
+        .image-container img {
+            margin-top: -30px; /* Adjust margin for tablets */
+        }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .image-container img {
+            margin-top: -40px; /* Adjust margin for desktops */
+        }
+    }
+    
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+        .image-container img {
+            margin-top: -50px; /* Reset to default for large desktops */
+        }
+    }
+    
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (min-width: 1400px) {
+        .image-container img {
+            margin-top: -300px; /* Keep margin consistent for extra large screens */
+        }
+    }
+    /*  */
+
+    /* .main2{
+        display: flex;
+        margin-left: 200px;
+        
+    }
+    .main2child{
+width: 50%;
+
+    }
+    .alltext{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .aheading{
+        font-size: 50px;
+    }
+    .atext{
+        font-size: 25px;
+    } */
+
+    .main2 {
+        display: flex;
+        margin-left: 200px;
+    }
+    
+    .main2child {
+        width: 50%;
+    }
+    
+    .alltext {
+        width: 50%;
+        margin-top: 50px;
+    }
+    
+    .aheading {
+        font-size: 50px;
+    }
+    
+    .atext {
+        font-size: 25px;
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (max-width: 576px) {
+        .main2 {
+            flex-direction: column; /* Stack the image and text vertically */
+            margin-left: 20px; /* Reduce margin for smaller screens */
+        }
+    
+        .main2child,
+        .alltext {
+            width: 100%; /* Full width for stacked layout */
+            text-align: center; /* Center align for better presentation */
+        }
+    
+        .aheading {
+            font-size: 30px; /* Smaller font size for headings */
+        }
+    
+        .atext {
+            font-size: 16px; /* Smaller font size for text */
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (max-width: 768px) {
+        .main2 {
+            flex-direction: column;
+            margin-left: 50px;
+        }
+    
+        .main2child,
+        .alltext {
+            width: 100%;
+            text-align: center;
+        }
+    
+        .aheading {
+            font-size: 35px;
+        }
+    
+        .atext {
+            font-size: 18px;
+        }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (max-width: 992px) {
+        .main2 {
+            margin-left: 100px; /* Reduce margin for smaller desktops */
+        }
+    
+        .aheading {
+            font-size: 40px;
+        }
+    
+        .atext {
+            font-size: 20px;
+        }
+    }
+    
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (max-width: 1200px) {
+        .main2 {
+            margin-left: 150px; /* Adjust margin for large desktops */
+        }
+    
+        .aheading {
+            font-size: 45px;
+        }
+    
+        .atext {
+            font-size: 22px;
+        }
+    }
+/* Feature Section */
+.feature {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.feature h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+/* Card Group */
+.card-group-feature {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Wrap cards for smaller screens */
+    padding: 20px;
+}
+
+/* Card Feature */
+.card-feature {
+    flex: 1 1 300px; /* Allow cards to shrink and grow */
+    max-width: 300px; /* Limit the width */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card-feature img {
+    width: 30%;
+    height: auto;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .feature h2 {
+        font-size: 2rem;
+    }
+
+    .card-title {
+        font-size: 1.1rem;
+    }
+
+    .card-text {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .feature h2 {
+        font-size: 1.8rem;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+
+    .card-text {
+        font-size: 0.85rem;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Footer */
+    /* .Footer{
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        height: 250px;
+        width: 100%;
+    }
+    .fhead{
+        cursor: pointer;
+        margin-left: 150px;
+        color: black;
+    }
+    .fhead1{
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        margin-top: -240px;
+        margin-left: 1150px;
+        color: black;
+    }
+    .fhead2{
+        cursor: pointer;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        margin-top: -150px;
+        margin-left: 1450px;
+        color: black;
+    }
+    a{
+        text-decoration: none;
+        color:black ;
+    } */
+
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        height: 250px;
+        width: 100%;
+        padding: 20px; /* Add some padding for spacing */
+        box-sizing: border-box;
+        justify-content: space-between; /* Space out sections evenly */
+        align-items: center;
+    }
+    
+    .fhead {
+        cursor: pointer;
+        margin-left: 150px;
+        color: black;
+    }
+    
+    .fhead1, .fhead2 {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .fhead1 {
+        margin-top: -240px;
+        margin-left: 1150px;
+    }
+    
+    .fhead2 {
+        margin-top: -190px;
+        margin-left: 1450px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        margin-top: 10px; /* Space between links */
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (max-width: 576px) {
+        .Footer {
+            flex-direction: column;
+            height: auto; /* Adjust height for stacked layout */
+            text-align: center;
+        }
+    
+        .fhead {
+            margin-left: 0;
+            margin-bottom: 20px;
+        }
+    
+        .fhead1, .fhead2 {
+            margin-left: 0;
+            margin-top: 20px; /* Space out the menu sections */
+        }
+    
+        .fhead1, .fhead2 {
+            align-items: center;
+        }
+    
+        .fhead h1 {
+            font-size: 25px;
+        }
+    
+        .fhead1 h1, .fhead2 h1 {
+            font-size: 20px;
+        }
+    
+        a {
+            font-size: 14px; /* Smaller font size for smaller screens */
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (max-width: 768px) {
+        .Footer {
+            flex-direction: column;
+            text-align: center;
+            height: auto;
+        }
+    
+        .fhead {
+            margin-left: 0;
+            margin-bottom: 20px;
+        }
+    
+        .fhead1, .fhead2 {
+            margin-left: 0;
+            margin-top: 20px;
+        }
+    
+        .fhead1, .fhead2 {
+            align-items: center;
+        }
+    
+        .fhead h1 {
+            font-size: 30px;
+        }
+    
+        .fhead1 h1, .fhead2 h1 {
+            font-size: 22px;
+        }
+    
+        a {
+            font-size: 16px;
+        }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (max-width: 992px) {
+        .Footer {
+            height: 200px; /* Adjust height for larger screens */
+            flex-direction: row;
+        }
+    
+        .fhead1 {
+            margin-left: 0;
+            margin-top: 0;
+            text-align: left;
+        }
+    
+        .fhead2 {
+            margin-left: 0;
+            margin-top: 0;
+            text-align: left;
+        }
+    
+        .fhead1, .fhead2 {
+            align-items: flex-start;
+        }
+    
+        .fhead h1 {
+            font-size: 35px;
+        }
+    
+        .fhead1 h1, .fhead2 h1 {
+            font-size: 26px;
+        }
+    
+        a {
+            font-size: 18px;
+        }
+    }
+    
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (max-width: 1200px) {
+        .Footer {
+            height: 250px;
+            flex-direction: row;
+        }
+    
+        .fhead1 {
+            margin-left: 0;
+            margin-top: 0;
+            text-align: left;
+        }
+    
+        .fhead2 {
+            margin-left: 0;
+            margin-top: 0;
+            text-align: left;
+        }
+    
+        .fhead1, .fhead2 {
+            align-items: flex-start;
+        }
+    
+        .fhead h1 {
+            font-size: 40px;
+        }
+    
+        .fhead1 h1, .fhead2 h1 {
+            font-size: 28px;
+        }
+    
+        a {
+            font-size: 20px;
+        }
+    }
+    
+    /* XX-Large devices (larger desktops, 1400px and up) */
+    @media (max-width: 1400px) {
+        .Footer {
+            height: 250px;
+            flex-direction: row;
+        }
+    
+        .fhead1 {
+            margin-left: 0;
+            margin-top: 0;
+            text-align: left;
+        }
+    
+        .fhead2 {
+            margin-left: 0;
+            margin-top: 0;
+            text-align: left;
+        }
+    
+        .fhead1, .fhead2 {
+            align-items: flex-start;
+        }
+    
+        .fhead h1 {
+            font-size: 45px;
+        }
+    
+        .fhead1 h1, .fhead2 h1 {
+            font-size: 30px;
+        }
+    
+        a {
+            font-size: 22px;
+        }
+    }
+    .Absolute{
+        margin-top: 25px;
+        margin-left: 1500px;
+        gap: 30px;
+    }
